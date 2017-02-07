@@ -1,0 +1,1 @@
+This is a simple program to display an OpenCV video stream in a PyQt GUI. 
