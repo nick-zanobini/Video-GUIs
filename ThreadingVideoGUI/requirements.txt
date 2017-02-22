@@ -1,0 +1,4 @@
+numpy==1.11.2
+QDarkStyle==2.3.0
+PyQt5==5.8
+cv2==1.0
