@@ -1,17 +1,20 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
 from PyQt5.QtWidgets import QLabel, QVBoxLayout, QWidget
 from PyQt5.QtCore import Qt
 
 
 class Example(QWidget):
 
-    def __init__(self):
-        super().__init__()
+    def __init__(self, parent=None):
+        super(QWidget, self).__init__(parent)
         self.initUI()
 
     def initUI(self):
         self.setFixedSize(200, 100)
         self.setWindowTitle('Example')
-        label = QLabel('Hello')
+        label = QLabel('Hello World')
         layout = QVBoxLayout()
         layout.addWidget(label)
         layout.setAlignment(Qt.AlignCenter)
